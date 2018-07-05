@@ -1,0 +1,81 @@
+
+body {
+  color:papayawhip;
+  text-align: center;
+}
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+h4 {
+  text-decoration:underline;
+}
+button {
+    background-color: papayawhip; /* Green */
+    border-radius: white;
+    color: peru;
+    padding: 10px 20px;
+    font-family: helvetica;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button2 {background-color: papayawhip;} /* Blue */
+.button3 {background-color: papayawhip;} /* Red */
+.button4 {background-color: papayawhip;} /* Gray */
+
+hr {
+  color: mintcream;
+}
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300
+  height: 200
+}
+
+h5 {
+  text-indent: inherit;
+}
